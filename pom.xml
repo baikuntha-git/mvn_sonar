@@ -13,6 +13,12 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <distributionManagement>
+  <snapshotRepository>
+    <id>artifactory</id>
+    <url>http://13.126.55.137:8082/artifactory/libs-snapshot-local/</url>
+  </snapshotRepository>
+</distributionManagement>
 
   <dependencies>
     <dependency>
